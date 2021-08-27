@@ -1,0 +1,248 @@
+.menu {
+  margin-top: 70px;
+}
+
+.category .category-title h2 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.category .category-menu a {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 25px;
+  color: #272042;
+}
+
+.category .category-menu a.active {
+  color: #F7C531;
+  font-weight: 500;
+}
+
+.search-menu span {
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+
+.search-menu input {
+  border-radius: 50px;
+  border-left: none;
+}
+
+.search-menu input:focus {
+  box-shadow: none;
+}
+
+.menu-all .card {
+  border: none;
+}
+
+.menu-all .card .card-header {
+  background-color: #ffffff;
+}
+
+.menu-all .card .card-body .menu-description h5 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #272042;
+}
+
+.menu-all .card .card-body .menu-description p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #8B8BA5;
+}
+
+.menu-all .rating img {
+  margin-top: -20px;
+}
+
+.menu-all .btn-load-more {
+  background-color: #FBE0DC;
+  color: #757588;
+}
+
+.menu-all .btn-load-more:hover {
+  background-color: #fad1ca;
+  color: #757588;
+}
+
+/* Zoom Effect */
+.menu-all .card .card-header .menu-picture .zoom {
+  position: relative;
+  height: 174px;
+  overflow: hidden; 
+}
+
+.menu-all .card .card-header .menu-picture .zoom .box {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.menu-all .card .card-header .menu-picture .zoom .box img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.menu-all .card .card-header .menu-picture .zoom:hover .box img{
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+@media (max-width: 1200px) {
+  .category .category-title h2{
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .category .category-menu a {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .menu-all .card .card-header .menu-picture .zoom {
+    position: relative;
+    height: 143px;
+    overflow: hidden; 
+  }
+
+}
+
+@media (max-width: 1024px) { 
+  .category .category-title h2{
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .category .category-menu a {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .menu-all .card .card-header .menu-picture .zoom {
+    height: 143px;
+  }
+
+}
+
+@media (max-width: 992px) { 
+  .category .category-title h2{
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .category .category-menu a {
+    font-size: 17px;
+    line-height: 22px;
+  }
+
+  .menu-all .card .card-header .menu-picture .zoom {
+    position: static;
+    height: 100%;
+  }
+  
+  .menu-all .card .card-header .menu-picture .zoom .box {
+    position: static;
+  }
+
+  .menu-all .card .card-header .menu-picture .zoom .box img {
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  .menu-all .card .card-header .menu-picture .zoom:hover .box img{
+    -webkit-transform: none;
+    transform: none;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .category .category-title h2{
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .category .category-menu a {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  
+  .menu-all .card .card-header .menu-picture .zoom {
+    position: static;
+    height: 100%;
+  }
+  
+  .menu-all .card .card-header .menu-picture .zoom .box {
+    position: static;
+  }
+
+  .menu-all .card .card-header .menu-picture .zoom .box img {
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  .menu-all .card .card-header .menu-picture .zoom:hover .box img{
+    -webkit-transform: none;
+    transform: none;
+  }
+
+  .menu-all .card .card-body .menu-description h5 {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+  }
+  
+  .menu-all .card .card-body .menu-description p {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .category .category-title h2{
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .category .category-menu a {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .menu-all .card .card-header .menu-picture .zoom {
+    position: static;
+    height: 100%;
+  }
+  
+  .menu-all .card .card-header .menu-picture .zoom .box {
+    position: static;
+  }
+
+  .menu-all .card .card-header .menu-picture .zoom .box img {
+    max-width: 85%;
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  .menu-all .card .card-header .menu-picture .zoom:hover .box img{
+    -webkit-transform: none;
+    transform: none;
+  }
+
+  .menu-all .card .card-body .menu-description h5 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+  }
+  
+  .menu-all .card .card-body .menu-description p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+}

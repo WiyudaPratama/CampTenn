@@ -1,0 +1,15 @@
+/* Navbar */
+.navbar-nav .nav-item .btn-login {
+  background-color: #FBE0DC;
+  padding: 14px 54px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-item .btn-login:hover {
+  background-color: #fad1ca;
+}
