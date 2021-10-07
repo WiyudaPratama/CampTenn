@@ -1,0 +1,62 @@
+.registrasi {
+  max-height: 100vh;
+}
+
+.registrasi .card {
+  margin-top: 100px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.registrasi .card .card-body .header h1 {
+  font-size: 32px;
+  color: #272042;
+  font-weight: bold;
+}
+
+.registrasi .card .card-body .header p {
+  color: #8B8BA5;
+  font-weight: 400;
+}
+
+.registrasi .form-control {
+  border-radius: 50px;
+  height: 50px;
+}
+
+.registrasi .btn-registrasi {
+  background-color: #F7C531;
+  border-radius: 50px;
+}
+
+.registrasi .btn-registrasi:hover {
+  background-color: #face49;
+}
+
+@media (max-width: 768px) {
+  .registrasi .card .card-body .header h1 {
+    font-size: 26px;
+  }
+
+  .registrasi .card .card-body .header img {
+    max-width: 140px;
+  }
+}
+
+@media (max-width: 576px) {
+  .registrasi .card {
+    margin-top: 140px;
+  }
+
+  .registrasi .card .card-body .header h1 {
+    font-size: 22px;
+  }
+
+  .registrasi .card .card-body .header p {
+    font-size: 14px;
+  }
+
+  .registrasi .card .card-body .header img {
+    max-width: 140px;
+  }
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 import "./footer.css"
 import logo from "../../assets/image/logo.png"
 
@@ -23,10 +24,10 @@ const Footer = () => {
               </div>
               <div className="list-title">
                 <ul className="list-unstyled">
-                  <li><a href="#">Burger</a></li>
-                  <li><a href="#">Ayam Geprek</a></li>
-                  <li><a href="#">Bakso</a></li>
-                  <li><a href="#">Nasi Padang</a></li>
+                  <li><Link to="#">Burger</Link></li>
+                  <li><Link to="#">Ayam Geprek</Link></li>
+                  <li><Link to="#">Bakso</Link></li>
+                  <li><Link to="#">Nasi Padang</Link></li>
                 </ul>
               </div>
               <div className="footer-title mt-3">
@@ -34,9 +35,9 @@ const Footer = () => {
               </div>
               <div className="list-title">
                 <ul className="list-unstyled">
-                  <li><a href="#">Facebook</a></li>
-                  <li><a href="#">Instagram</a></li>
-                  <li><a href="#">Twiter</a></li>
+                  <li><Link to="#">Facebook</Link></li>
+                  <li><Link to="#">Instagram</Link></li>
+                  <li><Link to="#">Twiter</Link></li>
                 </ul>
               </div>
             </div>
@@ -46,10 +47,10 @@ const Footer = () => {
               </div>
               <div className="list-title">
                 <ul className="list-unstyled">
-                  <li><a href="#">Coffee Blend</a></li>
-                  <li><a href="#">Jus</a></li>
-                  <li><a href="#">Sof Buah</a></li>
-                  <li><a href="#">Boba</a></li>
+                  <li><Link to="#">Coffee Blend</Link></li>
+                  <li><Link to="#">Jus</Link></li>
+                  <li><Link to="#">Sof Buah</Link></li>
+                  <li><Link to="#">Boba</Link></li>
                 </ul>
               </div>
               <div className="footer-title mt-3">
@@ -57,8 +58,8 @@ const Footer = () => {
               </div>
               <div className="list-title">
                 <ul className="list-unstyled">
-                  <li><a href="#">021-678-0921</a></li>
-                  <li><a href="#">camptenn@gmail.com</a></li>
+                  <li><Link to="#">021-678-0921</Link></li>
+                  <li><Link to="#">camptenn@gmail.com</Link></li>
                 </ul>
               </div>
             </div>
@@ -68,15 +69,15 @@ const Footer = () => {
               </div>
               <div className="list-title">
                 <ul className="list-unstyled">
-                  <li><a href="#">Bantuan</a></li>
-                  <li><a href="#">Yuk Jadi Mitra Kami</a></li>
+                  <li><Link to="#">Bantuan</Link></li>
+                  <li><Link to="#">Yuk Jadi Mitra Kami</Link></li>
                 </ul>
               </div>
             </div>
           </div>
           <hr />
-          <div class="row text-center pt-4 pb-4">
-            <div class="col-12 text-muted">
+          <div className="row text-center pt-4 pb-4">
+            <div className="col-12 text-muted">
               <p>All Rights Reserved CampTeen by WiyudaPratama 2021</p>
             </div>
           </div>
