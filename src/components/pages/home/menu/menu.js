@@ -1,10 +1,12 @@
+import React from "react"
+import { Link } from "react-router-dom"
 import "./menu.css"
-import search from "../../assets/icon/search.png"
-import burger from "../../assets/image/burger.jpg"
-import chocolate from "../../assets/image/chocolate.jpg"
-import coffee from "../../assets/image/coffee.jpg"
-import salad from "../../assets/image/salad.jpg"
-import stars from "../../assets/icon/stars.png"
+import search from "../../../assets/icon/search.png"
+import burger from "../../../assets/image/burger.jpg"
+import chocolate from "../../../assets/image/chocolate.jpg"
+import coffee from "../../../assets/image/coffee.jpg"
+import salad from "../../../assets/image/salad.jpg"
+import stars from "../../../assets/icon/stars.png"
 
 const Menu = () => {
   return (
@@ -19,9 +21,9 @@ const Menu = () => {
                 <h2 className="ps-md-2 pe-md-2">Pilih Menu Yang Kamu Suka</h2>
               </div>
               <div className="category-menu">
-                <a href="#" className="ps-md-2 pe-md-2 ps-3 menu-option active">Semua</a>
-                <a href="#" className="ps-md-2 pe-md-2 ps-3 menu-option">Makanan</a>
-                <a href="#" className="ps-md-2 pe-md-2 ps-3 menu-option">Minuman</a>
+                <Link to="#" className="ps-md-2 pe-md-2 ps-3 menu-option active">Semua</Link>
+                <Link to="#" className="ps-md-2 pe-md-2 ps-3 menu-option">Makanan</Link>
+                <Link to="#" className="ps-md-2 pe-md-2 ps-3 menu-option">Minuman</Link>
               </div>
             </div>
           </div>
@@ -53,15 +55,15 @@ const Menu = () => {
             <div className="col-12 col-lg-3 col-md-6">
               <div className="card">
                 <div className="card-header p-0">
-                  <a href="#">
+                  <Link to="/checkout">
                     <div className="menu-picture">
                       <div className="zoom rounded">
                         <div className="box">
-                          <img src={burger} className="rounded card-img-top" alt="Image Menu" />
+                          <img src={burger} className="rounded card-img-top" alt="Img Menu" />
                         </div>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="card-body">
                   <div className="menu-description">
@@ -77,15 +79,15 @@ const Menu = () => {
             <div className="col-12 col-lg-3 col-md-6">
               <div className="card">
                 <div className="card-header p-0">
-                  <a href="#">
+                  <Link to="#">
                     <div className="menu-picture">
                       <div className="zoom rounded">
                         <div className="box">
-                          <img src={salad} className="rounded card-img-top" alt="Image Menu" />
+                          <img src={salad} className="rounded card-img-top" alt="Img Menu" />
                         </div>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="card-body">
                   <div className="menu-description">
@@ -101,15 +103,15 @@ const Menu = () => {
             <div className="col-12 col-lg-3 col-md-6">
               <div className="card">
                 <div className="card-header p-0">
-                  <a href="#">
+                  <Link to="#">
                     <div className="menu-picture">
                       <div className="zoom rounded">
                         <div className="box">
-                          <img src={chocolate} className="rounded card-img-top" alt="Image Menu" />
+                          <img src={chocolate} className="rounded card-img-top" alt="Img Menu" />
                         </div>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="card-body">
                   <div className="menu-description">
@@ -125,15 +127,15 @@ const Menu = () => {
             <div className="col-12 col-lg-3 col-md-6">
               <div className="card">
                 <div className="card-header p-0">
-                  <a href="#">
+                  <Link to="#">
                     <div className="menu-picture">
                       <div className="zoom rounded">
                         <div className="box">
-                          <img src={coffee} className="rounded card-img-top" alt="Image Menu" />
+                          <img src={coffee} className="rounded card-img-top" alt="Img Menu" />
                         </div>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="card-body">
                   <div className="menu-description">
@@ -151,15 +153,15 @@ const Menu = () => {
             <div className="col-12 col-lg-3 col-md-6">
               <div className="card">
                 <div className="card-header p-0">
-                  <a href="#">
+                  <Link to="#">
                     <div className="menu-picture">
                       <div className="zoom rounded">
                         <div className="box">
-                          <img src={burger} className="rounded card-img-top" alt="Image Menu" />
+                          <img src={burger} className="rounded card-img-top" alt="Img Menu" />
                         </div>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="card-body">
                   <div className="menu-description">
@@ -175,15 +177,15 @@ const Menu = () => {
             <div className="col-12 col-lg-3 col-md-6">
               <div className="card">
                 <div className="card-header p-0">
-                  <a href="#">
+                  <Link to="#">
                     <div className="menu-picture">
                       <div className="zoom rounded">
                         <div className="box">
-                          <img src={salad} className="rounded card-img-top" alt="Image Menu" />
+                          <img src={salad} className="rounded card-img-top" alt="Img Menu" />
                         </div>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="card-body">
                   <div className="menu-description">
@@ -199,15 +201,15 @@ const Menu = () => {
             <div className="col-12 col-lg-3 col-md-6">
               <div className="card">
                 <div className="card-header p-0">
-                  <a href="#">
+                  <Link to="#">
                     <div className="menu-picture">
                       <div className="zoom rounded">
                         <div className="box">
-                          <img src={chocolate} className="rounded card-img-top" alt="Image Menu" />
+                          <img src={chocolate} className="rounded card-img-top" alt="Img Menu" />
                         </div>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="card-body">
                   <div className="menu-description">
@@ -223,15 +225,15 @@ const Menu = () => {
             <div className="col-12 col-lg-3 col-md-6">
               <div className="card">
                 <div className="card-header p-0">
-                  <a href="#">
+                  <Link to="#">
                     <div className="menu-picture">
                       <div className="zoom rounded">
                         <div className="box">
-                          <img src={coffee} className="rounded card-img-top" alt="Image Menu" />
+                          <img src={coffee} className="rounded card-img-top" alt="Img Menu" />
                         </div>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="card-body">
                   <div className="menu-description">
@@ -247,7 +249,7 @@ const Menu = () => {
           </div>
           <div className="row pt-2 pb-5 text-center">
             <div className="col-12">
-              <a href="#" class="btn btn-load-more">LOAD MORE</a>
+              <Link to="#" className="btn btn-load-more">LOAD MORE</Link>
             </div>
           </div>
         </div>

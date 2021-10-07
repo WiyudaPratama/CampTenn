@@ -1,6 +1,6 @@
 import "./tagline.css"
-import plate from "../../assets/icon/plate.png"
-import payment from "../../assets/icon/payment-method.png"
+import plate from "../../../assets/icon/plate.png"
+import payment from "../../../assets/icon/payment-method.png"
 
 const Tagline = () => {
   return (

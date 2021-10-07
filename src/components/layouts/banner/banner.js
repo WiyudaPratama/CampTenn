@@ -1,3 +1,5 @@
+import React from "react"
+import { Link } from "react-router-dom"
 import "./banner.css"
 import banner from "../../assets/image/banner.jpg"
 
@@ -17,7 +19,7 @@ const Banner = () => {
                 With us enjoy cheap, and delicious meals of course
               </p>
               <div className="btn-menu">
-                <a href="" className="btn btn-menu-decide">Decide a Menu</a>
+                <Link to="/" className="btn btn-menu-decide">Decide a Menu</Link>
               </div>
             </div>
           </div>
